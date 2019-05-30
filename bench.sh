@@ -5,7 +5,7 @@ else
 	NB_THREADS=$1
 fi
 
-if [ -z linux ]; then
+if [ ! -d linux ]; then
 	git clone --branch v5.1 --depth 1 https://github.com/torvalds/linux.git
 fi
 
