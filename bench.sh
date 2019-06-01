@@ -10,7 +10,7 @@ if [ ! -d linux ]; then
 fi
 
 cd linux
-test | make oldconfig > /dev/null
-make clean 1>&2 >/dev/null
+yes "" | make oldconfig 2>&1 >/dev/null
+make clean 2>&1 >/dev/null
 time make -j$NB_THREADS
 cd ..
