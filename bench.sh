@@ -9,7 +9,7 @@ fi
 
 cd $DIR
 if [ ! -d linux ]; then
-	git clone --branch v5.1 --depth 1 https://github.com/torvalds/linux.git
+	git clone --branch v5.8 --depth 1 https://github.com/torvalds/linux.git
 fi
 
 cd linux
