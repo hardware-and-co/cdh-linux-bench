@@ -17,5 +17,5 @@ cd -
 cd $DIR/linux
 make distclean
 yes "" | make oldconfig 2>&1 >/dev/null
-time make -j$NB_THREADS
+/bin/time -p make -j$NB_THREADS
 cd -
