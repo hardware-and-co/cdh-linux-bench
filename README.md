@@ -1,7 +1,7 @@
-Comptoir du Hardware - Benchmark compilation Linux 5.8
-======================================================
+Comptoir du Hardware - Benchmark compilation Linux 5.14
+=======================================================
 
-Benchmark de compilation utilisé pour les tests CPU du [Comptoir du Hardware](http://www.comptoir-hardware.com/). Clone, configure, lance une compilation du noyau Linux 5.8 et affiche le temps d'exécution de la compilation.
+Benchmark de compilation utilisé pour les tests CPU du [Comptoir du Hardware](http://www.comptoir-hardware.com/). Clone, configure, lance une compilation du noyau Linux 5.14 et affiche le temps d'exécution de la compilation.
 
 ## Utilisation
 `./bench.sh`
