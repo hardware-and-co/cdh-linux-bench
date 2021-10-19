@@ -3,7 +3,7 @@ set -e
 SELF=`readlink -f $0`
 DIR=`dirname $SELF`
 if [ "$1" == "" ]; then
-	NB_THREADS=$((`lscpu | grep "^CPU(s):" | sed -E "s/.* ([0-9]+)/\1/g"`))
+	NB_THREADS=$((`lscpu | grep "^Processeur(s)" | sed -E "s/.* ([0-9]+)/\1/g"`))
 else
 	NB_THREADS=$1
 fi
